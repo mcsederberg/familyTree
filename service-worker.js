@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/mcsederberg/familyTree/precache-manifest.3eac4d40edb33089bb8c13d22f921e3d.js"
+  "/familyTree/precache-manifest.97778dc378542b674ddbf30f7c26a67d.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/mcsederberg/familyTree/index.html", {
+workbox.routing.registerNavigationRoute("/familyTree/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
